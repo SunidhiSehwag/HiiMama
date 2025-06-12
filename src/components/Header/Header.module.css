@@ -1,0 +1,35 @@
+.header {
+  background-color: #000000;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.hiimamaLogo {
+  height: 60px;
+  width: 60px;
+  margin-left: 20px;
+}
+.headerList {
+  list-style: none;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
+  font-size: 16px;
+  font-weight: 400;
+}
+.headerList li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.headerIcons {
+  margin-right: 20px;
+}
+.icon {
+  height: 35px;
+  width: 40px;
+  margin-right: 10px;
+}

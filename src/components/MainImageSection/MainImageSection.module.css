@@ -1,0 +1,37 @@
+.mainDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mainImage {
+  height: 80vh;
+  width: 600px;
+  margin: 50px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 50%;
+  transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+.mainImage:hover {
+  transform: scale(1.05) rotate(15deg);
+}
+.content {
+  margin-top: -80px;
+  margin-right: -50px;
+}
+.homePageHeading {
+  font-size: 70px;
+  font-weight: 800;
+  width: 600px;
+}
+.homePageButton {
+  background-color: #ffc92f;
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 20px;
+  margin-top: 30px;
+  cursor: pointer;
+}

@@ -1,0 +1,44 @@
+.mostLovedDiv {
+  border: none;
+  border-radius: 50px;
+  background-color: #000;
+  height: 450px;
+  margin: -150px 10px 0px 10px;
+  margin-bottom: 50px;
+}
+.sectionHeading {
+  font-size: 80px;
+  font-weight: 700;
+  color: #ffc92f;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 0.4;
+  padding-top: 60px;
+}
+.foodCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 70px;
+}
+.foodCards li {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.foodImage {
+  height: 200px;
+  width: 200px;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 10px 10px 90px rgba(232, 228, 228, 0.3);
+}
+.itemName {
+  margin-top: 10px;
+}
+.foodImage:hover {
+  transform: scale(1.1);
+}
