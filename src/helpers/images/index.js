@@ -3,6 +3,7 @@ export {default as searchIcon} from './searchIcon.png';
 export {default as wishlistIcon} from './wishlistIcon.png';
 export {default as mainpageImage} from './mainpageimage.png';
 export {default as floatingSpices} from './floatingSpices.png';
+export {default as floatingSpices2} from './floatingSpices2.png';
 export {default as chocolateSouffle} from './chocolate_souffle.jpeg';
 export {default as matarPanner} from './matar_panner.webp';
 export {default as veganLasagna} from './vegan_lasagna.jpg';
